@@ -1,0 +1,20 @@
+     //lcd_pos(1,16); 
+        //lcd_write_s("Hola");
+        //for (i=0;i<=15; i++){
+        //    lcd_cmd(DISPLAY_LEF);
+        //    delay_ms(500);
+        //}
+        //lcd_cmd(CLEAR);
+        //lcd_cmd(HOME); //Posicion inicial
+        
+        //lcd_write_c('x');
+        //lcd_cmd(CURSOR_RIG);
+        //lcd_cmd(CURSOR_RIG);
+        //delay_ms(500);
+
+
+
+        lcd_write_c(CG1);
+        delay_ms(500);
+        lcd_write_c(CG2);
+        delay_ms(500);

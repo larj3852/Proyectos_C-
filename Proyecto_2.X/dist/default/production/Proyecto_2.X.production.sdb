@@ -1,0 +1,45 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"43 C:\Users\Jesus Lara\Documents\MPLAB\Proyecto_2.X\Bluetooth.c
+[v _main main `(v  1 e 1 0 ]
+"57
+[v _setup setup `(v  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"288 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f887.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"1138
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1538
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1860
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"2640
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"3740
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"3938
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"4022
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"4058
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"43 C:\Users\Jesus Lara\Documents\MPLAB\Proyecto_2.X\Bluetooth.c
+[v _main main `(v  1 e 1 0 ]
+{
+"55
+} 0
+"57
+[v _setup setup `(v  1 e 1 0 ]
+{
+"66
+} 0

@@ -1,0 +1,171 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"883 C:\Users\larj3\Documents\MPLAB\C\GLCD.X\glcd.c
+[e E1258 . `uc
+E_BINARY 2
+E_DECIMAL 10
+E_HEX 16
+]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"52 C:\Users\larj3\Documents\MPLAB\C\GLCD.X\delay.c
+[v _DELAY_us DELAY_us `(v  1 e 1 0 ]
+"70
+[v _DELAY_ms DELAY_ms `(v  1 e 1 0 ]
+"164 C:\Users\larj3\Documents\MPLAB\C\GLCD.X\glcd.c
+[v _GLCD_Init GLCD_Init `(v  1 e 1 0 ]
+"207
+[v _GLCD_DisplayChar GLCD_DisplayChar `(v  1 e 1 0 ]
+"266
+[v _GLCD_DisplayString GLCD_DisplayString `(v  1 e 1 0 ]
+"381
+[v _GLCD_DisplayNumber GLCD_DisplayNumber `(v  1 e 1 0 ]
+"667
+[v _GLCD_Clear GLCD_Clear `(v  1 e 1 0 ]
+"704
+[v _GLCD_GoToPage GLCD_GoToPage `(v  1 e 1 0 ]
+"740
+[v _GLCD_GoToLine GLCD_GoToLine `(v  1 e 1 0 ]
+"764
+[v _GLCD_GoToNextLine GLCD_GoToNextLine `(v  1 e 1 0 ]
+"793
+[v _GLCD_SetCursor GLCD_SetCursor `(v  1 e 1 0 ]
+"835
+[v _GLCD_DisplayLogo GLCD_DisplayLogo `(v  1 e 1 0 ]
+"1011
+[v _glcd_CmdWrite glcd_CmdWrite `(v  1 e 1 0 ]
+"1025
+[v _glcd_DataWrite glcd_DataWrite `(v  1 e 1 0 ]
+"1039
+[v _glcd_SelectPage0 glcd_SelectPage0 `(v  1 e 1 0 ]
+"1047
+[v _glcd_SelectPage1 glcd_SelectPage1 `(v  1 e 1 0 ]
+"1057
+[v _glcd_BusyCheck glcd_BusyCheck `(v  1 e 1 0 ]
+"102 C:\Users\larj3\Documents\MPLAB\C\GLCD.X\Main.c
+[v _main main `(v  1 e 1 0 ]
+"228 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"49 C:\Users\larj3\Documents\MPLAB\C\GLCD.X\glcd.c
+[v _A_GlcdFontTable_U8 A_GlcdFontTable_U8 `DC[95][5]uc  1 e 475 0 ]
+[s S37 . 4 `uc 1 PageNum 1 0 `uc 1 LineNum 1 1 `uc 1 CursorPos 1 2 `uc 1 Invertdisplay 1 3 ]
+"154
+[v _GLCD GLCD `S37  1 e 4 0 ]
+"35 C:\Users\larj3\Documents\MPLAB\C\GLCD.X\Main.c
+[v _meme meme `DC[1024]uc  1 e 1024 0 ]
+"102
+[v _main main `(v  1 e 1 0 ]
+{
+"108
+} 0
+"164 C:\Users\larj3\Documents\MPLAB\C\GLCD.X\glcd.c
+[v _GLCD_Init GLCD_Init `(v  1 e 1 0 ]
+{
+"191
+} 0
+"667
+[v _GLCD_Clear GLCD_Clear `(v  1 e 1 0 ]
+{
+"669
+[v GLCD_Clear@line line `uc  1 a 1 10 ]
+[v GLCD_Clear@cursor cursor `uc  1 a 1 9 ]
+"689
+} 0
+"740
+[v _GLCD_GoToLine GLCD_GoToLine `(v  1 e 1 0 ]
+{
+[v GLCD_GoToLine@lineNumber lineNumber `uc  1 a 1 wreg ]
+[v GLCD_GoToLine@lineNumber lineNumber `uc  1 a 1 wreg ]
+"742
+[v GLCD_GoToLine@lineNumber lineNumber `uc  1 a 1 7 ]
+"748
+} 0
+"704
+[v _GLCD_GoToPage GLCD_GoToPage `(v  1 e 1 0 ]
+{
+[v GLCD_GoToPage@pageNumber pageNumber `uc  1 a 1 wreg ]
+[v GLCD_GoToPage@pageNumber pageNumber `uc  1 a 1 wreg ]
+"707
+[v GLCD_GoToPage@pageNumber pageNumber `uc  1 a 1 5 ]
+"725
+} 0
+"70 C:\Users\larj3\Documents\MPLAB\C\GLCD.X\delay.c
+[v _DELAY_ms DELAY_ms `(v  1 e 1 0 ]
+{
+[v DELAY_ms@ms_count ms_count `ui  1 p 2 2 ]
+"77
+} 0
+"835 C:\Users\larj3\Documents\MPLAB\C\GLCD.X\glcd.c
+[v _GLCD_DisplayLogo GLCD_DisplayLogo `(v  1 e 1 0 ]
+{
+"837
+[v GLCD_DisplayLogo@line line `uc  1 a 1 8 ]
+[v GLCD_DisplayLogo@cursor cursor `uc  1 a 1 7 ]
+"835
+[v GLCD_DisplayLogo@ptr_Logo ptr_Logo `*.25DCuc  1 p 2 4 ]
+"855
+} 0
+"1047
+[v _glcd_SelectPage1 glcd_SelectPage1 `(v  1 e 1 0 ]
+{
+"1051
+} 0
+"1039
+[v _glcd_SelectPage0 glcd_SelectPage0 `(v  1 e 1 0 ]
+{
+"1043
+} 0
+"1025
+[v _glcd_DataWrite glcd_DataWrite `(v  1 e 1 0 ]
+{
+[v glcd_DataWrite@dat dat `uc  1 a 1 wreg ]
+[v glcd_DataWrite@dat dat `uc  1 a 1 wreg ]
+"1027
+[v glcd_DataWrite@dat dat `uc  1 a 1 3 ]
+"1034
+} 0
+"1011
+[v _glcd_CmdWrite glcd_CmdWrite `(v  1 e 1 0 ]
+{
+[v glcd_CmdWrite@cmd cmd `uc  1 a 1 wreg ]
+[v glcd_CmdWrite@cmd cmd `uc  1 a 1 wreg ]
+"1013
+[v glcd_CmdWrite@cmd cmd `uc  1 a 1 3 ]
+"1020
+} 0
+"1057
+[v _glcd_BusyCheck glcd_BusyCheck `(v  1 e 1 0 ]
+{
+"1079
+} 0
+"52 C:\Users\larj3\Documents\MPLAB\C\GLCD.X\delay.c
+[v _DELAY_us DELAY_us `(v  1 e 1 0 ]
+{
+[v DELAY_us@us_count us_count `ui  1 p 2 0 ]
+"58
+} 0

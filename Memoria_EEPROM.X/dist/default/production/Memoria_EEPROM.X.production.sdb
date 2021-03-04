@@ -1,0 +1,79 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+"37 C:\Users\Jesus Lara\Documents\MPLAB\Memoria_EEPROM.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"61
+[v _setup setup `(v  1 e 1 0 ]
+"164 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"1414
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1860
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"3243
+[v _EEDATA EEDATA `VEuc  1 e 1 @268 ]
+"3255
+[v _EEADR EEADR `VEuc  1 e 1 @269 ]
+"3385
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3497
+[v _EECON1 EECON1 `VEuc  1 e 1 @396 ]
+"3542
+[v _EECON2 EECON2 `VEuc  1 e 1 @397 ]
+"3694
+[v _CARRY CARRY `VEb  1 e 0 @24 ]
+"3780
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3916
+[v _RA7 RA7 `VEb  1 e 0 @47 ]
+"3968
+[v _RD RD `VEb  1 e 0 @3168 ]
+"4268
+[v _WR WR `VEb  1 e 0 @3169 ]
+"4270
+[v _WREN WREN `VEb  1 e 0 @3170 ]
+"33 C:\Users\Jesus Lara\Documents\MPLAB\Memoria_EEPROM.X\main.c
+[v _contador contador `i  1 e 2 0 ]
+"37
+[v _main main `(v  1 e 1 0 ]
+{
+"59
+} 0
+"61
+[v _setup setup `(v  1 e 1 0 ]
+{
+"68
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+{
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@value value `uc  1 p 1 0 ]
+[v eeprom_write@addr addr `uc  1 a 1 2 ]
+"9
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+{
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+"9
+[v eeprom_read@addr addr `uc  1 a 1 1 ]
+"12
+} 0

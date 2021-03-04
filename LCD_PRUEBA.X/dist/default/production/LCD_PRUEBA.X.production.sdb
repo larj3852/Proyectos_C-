@@ -1,0 +1,93 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"128 C:\Users\larj3\Documents\MPLAB\LCD_PRUEBA.X\LCD_header.h
+[v _lcd_ini lcd_ini `(v  1 e 1 0 ]
+"145
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+"155
+[v _lcd_write_c lcd_write_c `(v  1 e 1 0 ]
+"165
+[v _lcd_write_s lcd_write_s `(v  1 e 1 0 ]
+"172
+[v _lcd_pos lcd_pos `(v  1 e 1 0 ]
+"183
+[v _lcd_custom lcd_custom `(v  1 e 1 0 ]
+"50 C:\Users\larj3\Documents\MPLAB\LCD_PRUEBA.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"81
+[v _setup setup `(v  1 e 1 0 ]
+"350 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f887.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1600
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1860
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"3447
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3974
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"3976
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"43 C:\Users\larj3\Documents\MPLAB\LCD_PRUEBA.X\main.c
+[v _i i `i  1 e 2 0 ]
+"50
+[v _main main `(v  1 e 1 0 ]
+{
+"77
+} 0
+"81
+[v _setup setup `(v  1 e 1 0 ]
+{
+"89
+} 0
+"165 C:\Users\larj3\Documents\MPLAB\LCD_PRUEBA.X\LCD_header.h
+[v _lcd_write_s lcd_write_s `(v  1 e 1 0 ]
+{
+[v lcd_write_s@st st `*.24uc  1 a 1 wreg ]
+[v lcd_write_s@st st `*.24uc  1 a 1 wreg ]
+[v lcd_write_s@st st `*.24uc  1 a 1 4 ]
+"170
+} 0
+"172
+[v _lcd_pos lcd_pos `(v  1 e 1 0 ]
+{
+[v lcd_pos@fila fila `i  1 p 2 4 ]
+[v lcd_pos@columna columna `i  1 p 2 6 ]
+"181
+} 0
+"128
+[v _lcd_ini lcd_ini `(v  1 e 1 0 ]
+{
+"143
+} 0
+"183
+[v _lcd_custom lcd_custom `(v  1 e 1 0 ]
+{
+"204
+} 0
+"155
+[v _lcd_write_c lcd_write_c `(v  1 e 1 0 ]
+{
+[v lcd_write_c@ch ch `uc  1 a 1 wreg ]
+[v lcd_write_c@ch ch `uc  1 a 1 wreg ]
+"157
+[v lcd_write_c@ch ch `uc  1 a 1 2 ]
+"163
+} 0
+"145
+[v _lcd_cmd lcd_cmd `(v  1 e 1 0 ]
+{
+[v lcd_cmd@cmd cmd `i  1 p 2 0 ]
+"153
+} 0
